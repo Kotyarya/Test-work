@@ -1,0 +1,98 @@
+:root {
+  --font-size: .69444444vw
+}
+
+/*------------null style--------------*/
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Inter", Serif, serif;
+}
+
+*::before,
+*::after {
+  display: block;
+  box-sizing: border-box;
+}
+
+
+html, body {
+  font-size: var(--font-size);
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  overflow-x: hidden;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+}
+
+input, textarea {
+  outline: none;
+}
+
+button {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+/*--------------------------*/
+
+/*------------fonts--------------*/
+
+@font-face {
+  font-family: "Inter";
+  src: url("./fonts/Inter/Inter-Regular.ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("./fonts/Inter/Inter-Medium.ttf");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("./fonts/Inter/Inter-SemiBold.ttf");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("./fonts/Inter/Inter-ExtraBold.ttf");
+  font-weight: 800;
+  font-style: normal;
+}
+
+
+/*--------------------------*/
+
+/*------------colors--------------*/
+
+$black: #1B1B1B;
+$gray700: #344054;
+$gray500: #667085;
+$success: #1FC0AE;
+$light-gray: #EAECF0;
+$light-blue-gray: #8E99AB;
+
+
+/*--------------------------*/
